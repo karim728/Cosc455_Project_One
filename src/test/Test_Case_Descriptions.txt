@@ -1,0 +1,55 @@
+Test cases will be graded as follows:
+	2 points for correct output
+	1-2 points for mostly correct output
+	0-1 points for partially correct output
+	0 points for no output / can not run
+
+Test1.txt
+A simple test case with a .txt extension to test that your
+compiler only accepts .gtx files.
+
+Test2.gtx
+A simple test case containing only markdown annotations (i.e., 
+no variable tags) to test that the compiler works properly for a
+simple case.  
+
+Test3.gtx
+A simple test case containing only markdown annotations (i.e., 
+no variable tags) with some annotations in lower case to test 
+that the compiler is not case sensitive. Also includes bold and
+italicized text. 
+
+Test4.gtx
+A simple test case containing invalid markdown annotations to
+test that the lexical analyzer recognizes unknown lexemes and
+reports them as lexical errors. 
+
+Test5.gtx
+A simple test case containing a single, defined variable tag to 
+test that the compiler works properly for a variable in a 
+simple case. Taken from example in project handout. 
+
+Test6.gtx
+A simple test case containing a single, undefined variable to 
+test that the compiler detects the use of an unknown variable. Should
+report a static semantic error.  
+
+Test7.gtx
+A test case to test the scoping of a variable. Taken from the
+suggested test cases in the project handout. 
+
+Test8.gtx 
+A test case to ensure if there are annotations after \END 
+are reported as syntax errors.
+
+Test9.gtx
+A test case using multiple variable definition and use tags to 
+ensure that the parser can handle multiple variables.
+
+Test10.gtx
+A test case with legal annotations not following the grammar to
+test that the parser is enforcing the grammar rules. Should
+report a syntax error. 
+
+
+

@@ -1,0 +1,14 @@
+\BEGIN
+	\DEF[lastname = Simpson]
+	\TITLE[Variables]
+
+	\PARAB
+		The members of the \USE[name] family are:
+	\PARAE
+	
+	+ Homer \USE[name] 
+	+ Marge \USE[name]
+	+ Bart \USE[name]
+	+ Lisa \USE[name]	
+	+ Maggie \USE[name]
+\END 

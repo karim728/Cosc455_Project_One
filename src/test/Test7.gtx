@@ -1,0 +1,1 @@
+\BEGIN	\DEF[name = Josh]	\TITLE[Scoped Variables] 	My name is \USE[name]. 		\PARAB		\DEF[name = Jon]		Inside the paragraph block, my name is \USE[name].	\PARAE	Now, my name is \USE[name] again.\END 
